@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="style.css">
+
+  <title>Portfolio</title>
+</head>
+<body>
+  <!-- NAVBAR -->
+  <nav>
+    <div class="left">
+      <H1>Narendar G<H1>
+    </div>
+
+    <div class="right">
+      <a href="https://github.com/01narendar" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-github"></i>
+        <span>Github</span>
+      </a>
+      
+      <a href="https://www.linkedin.com/in/narendar-g-kumawat/" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-linkedin"></i>
+        <span>Linkedin</span>
+      </a>
+      
+      <a href="mailto:Narendar.raj1185@gmail.com">
+        <i class="fa-solid fa-envelope"></i>
+        <span>Email</span>
+      </a>
+    </div>
+  </nav>
+
+  <main>
+    <!-- SECTION 1: Hero -->
+    <section class="hero-section">
+      <div class="text">
+        <h2>Hi, I'm Narendar 👋</h2>
+        <p>A BCA Student specializing in Data Analytics, ardently committed to meticulously applying data to solve intricate problems. With robust critical thinking and advanced problem-solving skills, aiming to leverage expertise to drive pioneering projects and facilitate data-driven decision-making in a dynamic and intellectually stimulating environment.</p>
+        <div class="links">
+          <a href="#skills">
+            <i class="fa-solid fa-code"></i>
+            <span>Skills</span>
+          </a>
+          
+          <a href="#testimony">
+            <i class="fa-solid fa-pen"></i>
+            <span>Testimony</span>
+          </a>
+          
+          <a href="#contact">
+            <i class="fa-solid fa-envelope"></i>
+            <span>Contact</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="headshot">
+        <img src="Images/Naru.jpg" alt="narendar G headshot">
+      </div>
+    </section>
+
+    <!-- SECTION 2: Skills -->
+    <section id="skills" class="skills-section">
+      <h2>Skills</h2>
+      <div class="text">
+         I have a solid foundation in HTML and CSS, allowing me to build responsive and visually appealing web pages. My proficiency in Power BI and Excel enables me to analyze data effectively, create interactive dashboards, and generate insightful reports. Additionally, my skills in SQL and Python allow me to manipulate databases and automate data-driven processes, ensuring efficient problem-solving and analysis.
+      </div>
+
+      <div class="cells">
+        <div class="cell">
+          <img src="Images/HTML.png" alt="html logo"  width:20px height:30px>
+         
+          <span>HTML</span>&nbsp
+        </div>
+        
+        <div class="cell">
+          <img src="Images/css-3.png" alt="css logo">
+          <span>CSS</span>&nbsp
+        </div>
+        
+        <div class="cell">
+          <img src="Images/Excel.png" alt="Excel">
+          <span>Excel</span>&nbsp
+        </div>
+        
+        <div class="cell">
+          <img src="Images/power bi.jpeg" alt="Power Bi">
+          <span>Power Bi</span>
+        </div>&nbsp
+
+        <div class="cell">
+         <img src="Images/python.png" alt="Python">
+         <span>Python</span>
+       </div>&nbsp
+        
+        <div class="cell">
+          <img src="Images/sql-server.png" alt="Sql">
+          <span>My SQL</span>&nbsp
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 3: Testimony -->
+    <section id="testimony" class="testimony-section">
+      <h2>Testimony</h2>
+
+      <div class="group">
+        <div class="person-details">
+          <img src="Images/Naresh1.jpg">
+          <p>Narendar G</p>
+          <p>Data Analyst</p>
+        </div>
+
+        <div class="text">
+         As a data analyst, I have consistently demonstrated my ability to transform raw data into actionable insights that drive business decisions. With expertise in tools like Excel, SQL, and Power BI, I excel in visualizing complex datasets and uncovering trends. My commitment to accuracy and efficiency ensures data-driven solutions that enhance operational performance.
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 4: Contact -->
+    <section id="contact" class="contact-section">
+      <h2>Contact</h2>
+
+      <div class="group">
+        <div class="text">
+         You can contact me here  👉
+        </div>
+
+        <form>
+          <label for="name">Name</label>
+          <input type="text" id="name">
+
+          <label for="email">Email</label>
+          <input type="email" id="email">
+
+          <label for="message">Message</label>
+          <textarea id="message" cols="30" rows="10"></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
